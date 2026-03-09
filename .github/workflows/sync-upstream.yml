@@ -2,7 +2,7 @@ name: Sync upstream AutoGPT
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # mỗi ngày 1 lần
+    - cron: "0 0 * * 1"   # chạy mỗi thứ 2
   workflow_dispatch:
 
 jobs:
